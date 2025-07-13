@@ -3,7 +3,6 @@ from moonlight.pages import (
     page_main_about,
     page_main_data,
     page_main_home,
-    page_main_map,
     page_main_models,
 )
 
