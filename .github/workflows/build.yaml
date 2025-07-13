@@ -25,5 +25,5 @@ jobs:
         env:
             UV_INDEX_ENVELOPE_USERNAME: ${{ secrets.UV_INDEX_ENVELOPE_USERNAME }}
             UV_INDEX_ENVELOPE_PASSWORD: ${{ secrets.UV_INDEX_ENVELOPE_PASSWORD }}
-        run: uv publish
+        run: uv publish --index envelope --username $UV_INDEX_ENVELOPE_USERNAME --password $UV_INDEX_ENVELOPE_PASSWORD
 
