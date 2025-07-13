@@ -29,7 +29,7 @@ dev = [
 ]
 
 [[tool.uv.index]]
-name = "Envelope Private Index"
+name = "envelope"
 url = "https://app.envelope.dev/simple/"
 publish-url = "https://app.envelope.dev/legacy/"
 explicit = true
