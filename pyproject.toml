@@ -1,0 +1,35 @@
+[project]
+name = "moonlight"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gygarte", email = "gabriel.artemie@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+    "statsmodels>=0.14.5",
+    "streamlit>=1.46.1",
+    "tinydb>=4.8.2",
+]
+
+[project.scripts]
+moonlight = "moonlight:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.16.1",
+]
+
+[[tool.uv.index]]
+name = "Envelope Private Index"
+url = "https://app.envelope.dev/simple/"
+publish-url = "https://app.envelope.dev/legacy/"
+explicit = true
