@@ -1,8 +1,8 @@
 import streamlit as st
-from moonlight.database.struct_base import BaseModel
-from moonlight.pages.page_models.delete_win import delete_model
-from moonlight.pages.page_models.description_win import model_description_popup
-from moonlight.layout import STATUS_COLOR
+from lightbulb.database.struct_base import BaseModel
+from lightbulb.pages.page_models.delete_win import delete_model
+from lightbulb.pages.page_models.description_win import model_description_popup
+from lightbulb.layout import STATUS_COLOR
 
 
 def model_description(model: BaseModel) -> None:

@@ -1,6 +1,6 @@
 import streamlit as st
-from moonlight.pages import pages_config
-from moonlight.database.db_manager import DBManager
+from lightbulb.pages import pages_config
+from lightbulb.database.db_manager import DBManager
 
 
 def init_session_state() -> None:

@@ -1,5 +1,5 @@
 import streamlit as st
-from moonlight.database.struct_base import BaseModel
+from lightbulb.database.struct_base import BaseModel
 
 
 @st.dialog(title="Are you sure?")

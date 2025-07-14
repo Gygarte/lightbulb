@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
-from moonlight.pages.page_models.model_form import model_info_form
-from moonlight.pages.page_models.data_preview import preview_data
+from lightbulb.pages.page_models.model_form import model_info_form
+from lightbulb.pages.page_models.data_preview import preview_data
 
 
 @st.dialog(title="Upload Model", width="large")

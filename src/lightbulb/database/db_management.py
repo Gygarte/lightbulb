@@ -2,12 +2,12 @@ import os
 from tinydb import TinyDB
 from tinydb.table import Document, Table
 import streamlit as st
-from moonlight.database.struct_base import BaseData, BaseModel
-from moonlight.database.struct_ols_model import OLSModel
-from moonlight.database.struct_train_data import TrainData
-from moonlight.database.struct_test_data import TestData
-from moonlight.database.struct_forecast_data import ForecastsData
-from moonlight.database.struct_prediction_data import PredictionData
+from lightbulb.database.struct_base import BaseData, BaseModel
+from lightbulb.database.struct_ols_model import OLSModel
+from lightbulb.database.struct_train_data import TrainData
+from lightbulb.database.struct_test_data import TestData
+from lightbulb.database.struct_forecast_data import ForecastsData
+from lightbulb.database.struct_prediction_data import PredictionData
 
 
 def init_db(db_path: str = "./db/tinydb.json") -> None:

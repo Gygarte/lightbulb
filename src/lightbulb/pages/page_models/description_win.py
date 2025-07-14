@@ -1,6 +1,6 @@
 import streamlit as st
-from moonlight.database.struct_base import BaseModel
-from moonlight.layout import STATUS_COLOR
+from lightbulb.database.struct_base import BaseModel
+from lightbulb.layout import STATUS_COLOR
 
 
 @st.dialog(title="Model Description", width="large")

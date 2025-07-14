@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from moonlight.database.struct_base import BaseData
+from lightbulb.database.struct_base import BaseData
 
 
 @dataclass

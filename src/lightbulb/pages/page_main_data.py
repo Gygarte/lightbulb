@@ -1,7 +1,7 @@
 import uuid
 import streamlit as st
-from moonlight.database.struct_base import BaseData
-from moonlight.utils import split_list_equal
+from lightbulb.database.struct_base import BaseData
+from lightbulb.utils import split_list_equal
 
 st.set_page_config(
     page_title="Models Inventory", page_icon=":material/robot:", layout="wide"

@@ -1,7 +1,7 @@
 import streamlit as st
-from moonlight.pages.page_models.upload_win import upload_model
-from moonlight.pages.page_models.description_card import model_description
-from moonlight.utils import split_list_equal
+from lightbulb.pages.page_models.upload_win import upload_model
+from lightbulb.pages.page_models.description_card import model_description
+from lightbulb.utils import split_list_equal
 
 st.set_page_config(
     page_title="Models Inventory", page_icon=":material/robot:", layout="wide"

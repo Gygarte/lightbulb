@@ -1,5 +1,5 @@
 [project]
-name = "moonlight"
+name = "lightbulb"
 version = "0.1.1-alpha"
 description = "Add your description here"
 readme = "README.md"
@@ -17,11 +17,14 @@ dependencies = [
 ]
 
 [project.scripts]
-moonlight = "moonlight:main"
+lightbulb = "lightbulb:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages=["src/lightbulb"]
 
 [dependency-groups]
 dev = [

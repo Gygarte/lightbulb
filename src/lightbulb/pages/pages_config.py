@@ -1,5 +1,5 @@
 import streamlit as st
-from moonlight.pages import (
+from lightbulb.pages import (
     page_main_about,
     page_main_data,
     page_main_home,

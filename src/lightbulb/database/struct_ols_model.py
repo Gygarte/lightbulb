@@ -2,13 +2,13 @@ from dataclasses import dataclass
 import pandas as pd
 from statsmodels.regression.linear_model import OLSResults, OLS
 from statsmodels.tools.tools import add_constant
-from moonlight.database.struct_train_data import TrainData
-from moonlight.database.struct_test_data import TestData
+from lightbulb.database.struct_train_data import TrainData
+from lightbulb.database.struct_test_data import TestData
 
-from moonlight.database.struct_forecast_data import ForecastsData
-from moonlight.database.struct_prediction_data import PredictionData
-from moonlight.database.struct_results_data import TestResults
-from moonlight.database.struct_base import BaseModel
+from lightbulb.database.struct_forecast_data import ForecastsData
+from lightbulb.database.struct_prediction_data import PredictionData
+from lightbulb.database.struct_results_data import TestResults
+from lightbulb.database.struct_base import BaseModel
 
 
 @dataclass
