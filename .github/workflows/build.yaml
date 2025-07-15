@@ -21,7 +21,7 @@ jobs:
         run: uv sync --locked --all-extras
 
       - name: Build the project
-        run: uv build --package lightbulb --no-sources
+        run: uv build 
 
       - name: Upload the build artifacts
         env:
